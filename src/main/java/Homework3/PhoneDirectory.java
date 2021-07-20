@@ -14,7 +14,7 @@ public class PhoneDirectory
     {
         for (int i = 0; i < surnameList.size(); i++)
         {
-            if (surnameList.get(i) == surname)
+            if (surnameList.get(i).equals(surname))
             {
                 System.out.println(surname + ":" + phoneList.get(i));
             }
